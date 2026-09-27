@@ -1,0 +1,51 @@
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.eslintcache
+
+# ── Agent runtime data (local only, never commit) ─────────────────────
+.agent_state/
+.agent_chroma/
+.agent_temp/
+.agent_backup/
+
+# ── Node / Next.js ────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+
+# ── Secrets / local env (keep *.example files) ────────────────────────
+.env
+.env.local
+.env*.local
+!.env.example
+
+# ── OS / editor noise ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Logs ──────────────────────────────────────────────────────────────
+*.log
+logs/
